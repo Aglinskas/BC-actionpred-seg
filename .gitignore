@@ -1,6 +1,9 @@
 Data/
 haa500_v1_1/
 
+*.pt
+# YOLO WEIGHTS
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
