@@ -10,12 +10,11 @@ f = int(f)
 model = YOLO("yolov8x-seg.pt")
 #model = YOLO("yolov8n-seg.pt")
 
-indir = '~/BC-actionpred-seg/Data/haa500_v1_1_frames/video/' #ALS_IceBucket_Challenge/ALS_IceBucket_Challenge_009
+indir = '~/BC-actionpred-seg/Data/haa500_v1_1_frames/video/' 
 indir = os.path.expanduser(indir)
 
 folders = [folder for folder in os.listdir(indir) if not folder.startswith('.')]
 folders.sort()
-#print(folders[0:5])
 
 videos = []
 for folder in folders:
@@ -24,7 +23,6 @@ for folder in folders:
     conts.sort()
     videos.append(conts)
 
-#for f in range(2,len(folders)):
 for v in range(20):
     frames = [os.path.join(videos[f][v],frame) for frame in os.listdir(videos[f][v]) if frame.endswith('.png')]
     frames.sort()

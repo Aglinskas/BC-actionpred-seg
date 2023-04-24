@@ -3,7 +3,7 @@
 #SBATCH --output=./Data/papermill-split-into-frames/output_papermill-split-frames_%a.txt
 #SBATCH --error=./Data/papermill-split-into-frames/error_papermill-split-frames_%a.txt
 #SBATCH --ntasks=1
-#SBATCH --mem=1gb
+#SBATCH --mem=4gb
 #SBATCH --time=01:00:00
 #SBATCH --array=0-500
 

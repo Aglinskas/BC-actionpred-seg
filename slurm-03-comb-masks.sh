@@ -4,11 +4,12 @@
 #SBATCH --error=./Data/slrum-batch-comb-masks/error_yolo_slrum-batch-comb-masks_%a.txt
 #SBATCH --ntasks=1
 #SBATCH --mem=32gb
-#SBATCH --time=01:00:00
-#SBATCH --array=21-499
+#SBATCH --time=05:00:00
+#SBATCH --array=0-500
 
 #f=$SLURM_ARRAY_TASK_ID
 
+date
 folder=$SLURM_ARRAY_TASK_ID
 
 for video in {0..20}
@@ -21,6 +22,10 @@ do
 
 	echo $notebook_name
 	echo $outname
+    date
 
 	papermill $notebook_name $outname -p folder $folder -p video $video --autosave-cell-every 5 --progress-bar
 done
+
+echo 'done'
+date
