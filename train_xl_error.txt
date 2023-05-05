@@ -1,0 +1,37 @@
+Input Notebook:  11-resnet50-train-xl.ipynb
+Output Notebook: 11-resnet50-train-xl-run2.ipynb
+Executing:   0%|          | 0/94 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   1%|          | 1/94 [00:33<52:04, 33.59s/cell]Executing:   4%|▍         | 4/94 [00:33<09:35,  6.39s/cell]Executing:  10%|▉         | 9/94 [00:33<03:06,  2.19s/cell]Executing:  14%|█▍        | 13/94 [00:39<02:28,  1.83s/cell]Executing:  17%|█▋        | 16/94 [00:40<01:48,  1.39s/cell]Executing:  19%|█▉        | 18/94 [00:41<01:26,  1.14s/cell]Executing:  23%|██▎       | 22/94 [12:21:48<88:22:46, 4418.97s/cell]Executing:  26%|██▌       | 24/94 [12:21:48<66:55:32, 3441.89s/cell]Executing:  29%|██▊       | 27/94 [12:21:48<43:27:49, 2335.37s/cell]Executing:  29%|██▊       | 27/94 [12:22:00<43:27:49, 2335.37s/cell]Executing:  30%|██▉       | 28/94 [12:48:15<40:59:39, 2236.05s/cell]Executing:  31%|███       | 29/94 [12:49:30<34:09:05, 1891.46s/cell]Executing:  32%|███▏      | 30/94 [12:50:53<27:39:38, 1555.91s/cell]Executing:  34%|███▍      | 32/94 [12:50:53<17:30:50, 1016.95s/cell]Executing:  36%|███▌      | 34/94 [12:50:53<11:20:20, 680.33s/cell] Executing:  38%|███▊      | 36/94 [12:50:53<7:26:32, 461.94s/cell] Executing:  40%|████      | 38/94 [12:50:53<4:55:35, 316.70s/cell]Executing:  41%|████▏     | 39/94 [12:50:57<18:07:15, 1186.10s/cell]
+Traceback (most recent call last):
+  File "/data/aglinska/anaconda3/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/click/decorators.py", line 21, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/papermill/cli.py", line 250, in papermill
+    execute_notebook(
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/papermill/execute.py", line 122, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/data/aglinska/anaconda3/lib/python3.8/site-packages/papermill/execute.py", line 234, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [34]":
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+/scratch/aglinska/ipykernel_7280/3522254994.py in <cell line: 4>()
+     10 
+     11     c+=1;plt.subplot(nc,3,c)
+---> 12     plt.imshow(seg_test_dataset.get_im(j,0).swapaxes(0,1).swapaxes(1,2))
+     13     plt.axis('off');
+     14     if c==2 : plt.title('SEG',fontsize=16)
+
+NameError: name 'seg_test_dataset' is not defined
+
