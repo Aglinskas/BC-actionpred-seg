@@ -10,7 +10,7 @@
 
 
 notebook_name=11-resnet50-train-xl.ipynb
-outname=11-resnet50-train-xl-run2.ipynb
+outname=11-resnet50-train-xl-run3.ipynb
 
 papermill $notebook_name $outname --autosave-cell-every 60
 

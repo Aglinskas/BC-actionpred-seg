@@ -1,7 +1,7 @@
 Input Notebook:  11-resnet50-train-xl.ipynb
-Output Notebook: 11-resnet50-train-xl-run2.ipynb
+Output Notebook: 11-resnet50-train-xl-run3.ipynb
 Executing:   0%|          | 0/94 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   1%|          | 1/94 [00:33<52:04, 33.59s/cell]Executing:   4%|▍         | 4/94 [00:33<09:35,  6.39s/cell]Executing:  10%|▉         | 9/94 [00:33<03:06,  2.19s/cell]Executing:  14%|█▍        | 13/94 [00:39<02:28,  1.83s/cell]Executing:  17%|█▋        | 16/94 [00:40<01:48,  1.39s/cell]Executing:  19%|█▉        | 18/94 [00:41<01:26,  1.14s/cell]Executing:  23%|██▎       | 22/94 [12:21:48<88:22:46, 4418.97s/cell]Executing:  26%|██▌       | 24/94 [12:21:48<66:55:32, 3441.89s/cell]Executing:  29%|██▊       | 27/94 [12:21:48<43:27:49, 2335.37s/cell]Executing:  29%|██▊       | 27/94 [12:22:00<43:27:49, 2335.37s/cell]Executing:  30%|██▉       | 28/94 [12:48:15<40:59:39, 2236.05s/cell]Executing:  31%|███       | 29/94 [12:49:30<34:09:05, 1891.46s/cell]Executing:  32%|███▏      | 30/94 [12:50:53<27:39:38, 1555.91s/cell]Executing:  34%|███▍      | 32/94 [12:50:53<17:30:50, 1016.95s/cell]Executing:  36%|███▌      | 34/94 [12:50:53<11:20:20, 680.33s/cell] Executing:  38%|███▊      | 36/94 [12:50:53<7:26:32, 461.94s/cell] Executing:  40%|████      | 38/94 [12:50:53<4:55:35, 316.70s/cell]Executing:  41%|████▏     | 39/94 [12:50:57<18:07:15, 1186.10s/cell]
+Executing:   1%|          | 1/94 [00:32<51:01, 32.92s/cell]Executing:   4%|▍         | 4/94 [00:33<09:23,  6.26s/cell]Executing:  10%|▉         | 9/94 [00:33<03:02,  2.15s/cell]Executing:  14%|█▍        | 13/94 [00:38<02:30,  1.85s/cell]Executing:  17%|█▋        | 16/94 [00:40<01:49,  1.41s/cell]Executing:  19%|█▉        | 18/94 [00:40<01:27,  1.15s/cell]Executing:  23%|██▎       | 22/94 [12:31:56<89:35:19, 4479.44s/cell]Executing:  26%|██▌       | 24/94 [12:31:56<67:50:28, 3488.98s/cell]Executing:  29%|██▊       | 27/94 [12:31:56<44:03:30, 2367.32s/cell]Executing:  29%|██▊       | 27/94 [12:32:10<44:03:30, 2367.32s/cell]Executing:  30%|██▉       | 28/94 [13:10:31<43:16:20, 2360.32s/cell]Executing:  31%|███       | 29/94 [13:13:42<36:22:25, 2014.54s/cell]Executing:  32%|███▏      | 30/94 [13:16:54<29:48:12, 1676.45s/cell]Executing:  34%|███▍      | 32/94 [13:16:55<18:52:16, 1095.74s/cell]Executing:  36%|███▌      | 34/94 [13:16:55<12:13:03, 733.05s/cell] Executing:  38%|███▊      | 36/94 [13:16:55<8:01:09, 497.75s/cell] Executing:  40%|████      | 38/94 [13:16:55<5:18:30, 341.26s/cell]Executing:  41%|████▏     | 39/94 [13:16:59<18:43:57, 1226.13s/cell]
 Traceback (most recent call last):
   File "/data/aglinska/anaconda3/bin/papermill", line 8, in <module>
     sys.exit(papermill())
@@ -26,7 +26,7 @@ papermill.exceptions.PapermillExecutionError:
 Exception encountered at "In [34]":
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
-/scratch/aglinska/ipykernel_7280/3522254994.py in <cell line: 4>()
+/scratch/aglinska/ipykernel_14033/3522254994.py in <cell line: 4>()
      10 
      11     c+=1;plt.subplot(nc,3,c)
 ---> 12     plt.imshow(seg_test_dataset.get_im(j,0).swapaxes(0,1).swapaxes(1,2))
