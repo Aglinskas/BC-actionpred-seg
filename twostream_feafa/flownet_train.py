@@ -20,10 +20,11 @@ import feafa_architecture
 import feafa_criterion
 
 
-os.environ["CUDA_VISIBLE_DEVICES"]='2'
+os.environ["CUDA_VISIBLE_DEVICES"]='0'
 
 #path = "/mmfs1/data/anzellos/data/FEAFA2"
-path = '/data/aglinska/BC-actionpred-seg/Data/pytorch-data/action_data_orig/train/badminton_overswing'
+#path = '/data/aglinska/BC-actionpred-seg/Data/pytorch-data/action_data_orig/train/badminton_overswing'
+path = '/data/aglinska/BC-actionpred-seg/Data/pytorch-data/xl_121_15_action_data_orig/train/'
 window = 11
 traindataset = feafa_dataloader.FeafaDataset(path,window,usage='Train')
 trainloader = DataLoader(traindataset,batch_size = 32)
@@ -38,7 +39,8 @@ criterion = feafa_criterion.SimpleLoss(flownet)
 
 optimizer = optim.SGD(flownet.parameters(), lr=0.1, momentum=0.9)
 
-save_root = "/data/anzellos/results/twostream_feafa"
+#save_root = "/data/anzellos/results/twostream_feafa"
+save_root = "/data/aglinska/BC-actionpred-seg/Data/02-results_twostream_feafa"
 
 save_freq = 1                               # specify every how many epochs to save the model
 loss_memory = []
