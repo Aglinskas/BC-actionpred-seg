@@ -1,0 +1,81 @@
+,action,cat_idx,file,label,choice_idx_1,choice_idx_2,choice_idx_3,choice_idx_4,choice_idx_5,choice_label_1,choice_label_2,choice_label_3,choice_label_4,choice_label_5,gif_code_orig,gif_code_bg,gif_code_seg
+0,golf_part,24,gif_001.gif,golf part,24,40,20,34,4,golf part,play cymbals,eat apple,jack up car,balloon animal,648,541,217
+1,using_lawn_mower,97,gif_002.gif,using lawn mower,97,32,23,69,40,using lawn mower,handshake dog,floss dance,pull ups,play cymbals,219,471,027
+2,using_scythe,98,gif_003.gif,using scythe,98,23,31,103,113,using scythe,floss dance,handsaw,wear face mask,yoga firefly,649,910,151
+3,closing_door,14,gif_004.gif,closing door,14,58,84,5,34,closing door,play serpent,softball pitch,basketball jabstep,jack up car,141,359,713
+4,chainsaw_tree,10,gif_005.gif,chainsaw tree,10,18,19,60,17,chainsaw tree,dog highfive,draw handgun,play tambourine,dips,936,035,324
+5,yoga_gate,115,gif_006.gif,yoga gate,115,44,84,16,56,yoga gate,play grandpiano,softball pitch,cutting onion,play sanxian,748,463,680
+6,draw_handgun,19,gif_007.gif,draw handgun,19,14,37,97,105,draw handgun,closing door,neck side pull stretch,using lawn mower,weightlifting stand,054,495,246
+7,pull_ups,69,gif_008.gif,pull ups,69,46,62,44,42,pull ups,play hulusi,play triangle,play grandpiano,play erhu,250,469,927
+8,tight-rope_walking,95,gif_009.gif,tight-rope walking,95,14,60,35,20,tight-rope walking,closing door,play tambourine,jump rope,eat apple,607,932,547
+9,play_panpipe,54,gif_010.gif,play panpipe,54,78,81,53,21,play panpipe,shooting shotgun,skateboard forward,play ocarina,fish-hunting hold,533,565,517
+10,using_typewriter,100,gif_011.gif,using typewriter,100,75,81,22,79,using typewriter,shake cocktail,skateboard forward,fish-hunting pull,shoveling snow,737,146,390
+11,screw_car_tire,74,gif_012.gif,screw car tire,74,120,17,75,63,screw car tire,yoga updog,dips,shake cocktail,play ukulele,851,457,235
+12,shake_cocktail,75,gif_013.gif,shake cocktail,75,104,19,46,29,shake cocktail,weightlifting overhead,draw handgun,play hulusi,firemaking drill with bow,222,522,353
+13,play_maracas,50,gif_014.gif,play maracas,50,29,5,68,88,play maracas,firemaking drill with bow,basketball jabstep,pouring wine,styling hair,867,536,267
+14,arm_wave,2,gif_015.gif,arm wave,2,58,16,21,101,arm wave,play serpent,cutting onion,fish-hunting hold,volleyball set,130,008,231
+15,skateboard_forward,81,gif_016.gif,skateboard forward,81,38,102,31,78,skateboard forward,play  piccolo,watering plants,handsaw,shooting shotgun,062,045,529
+16,pottery_wheel,67,gif_017.gif,pottery wheel,67,84,100,34,115,pottery wheel,softball pitch,using typewriter,jack up car,yoga gate,391,279,051
+17,yoga_firefly,113,gif_018.gif,yoga firefly,113,116,72,35,56,yoga firefly,yoga locust,rock balancing,jump rope,play sanxian,594,790,063
+18,play_sanxian,56,gif_019.gif,play sanxian,56,102,50,20,89,play sanxian,watering plants,play maracas,eat apple,swinging axe on a tree,261,217,220
+19,yoga_updog,120,gif_020.gif,yoga updog,120,59,57,42,10,yoga updog,play sheng,play saxophone,play erhu,chainsaw tree,204,617,662
+20,watering_plants,102,gif_021.gif,watering plants,102,38,5,26,4,watering plants,play  piccolo,basketball jabstep,gym squat,balloon animal,244,425,627
+21,floss_dance,23,gif_022.gif,floss dance,23,79,50,24,69,floss dance,shoveling snow,play maracas,golf part,pull ups,847,396,100
+22,balloon_animal,4,gif_023.gif,balloon animal,4,35,23,106,69,balloon animal,jump rope,floss dance,whipping,pull ups,885,759,215
+23,play_gong,43,gif_024.gif,play gong,43,78,4,68,84,play gong,shooting shotgun,balloon animal,pouring wine,softball pitch,145,446,975
+24,dog_highfive,18,gif_025.gif,dog highfive,18,29,46,48,67,dog highfive,firemaking drill with bow,play hulusi,play leaf-flute,pottery wheel,860,438,919
+25,add_new_car_tire,0,gif_026.gif,add new car tire,0,88,54,68,72,add new car tire,styling hair,play panpipe,pouring wine,rock balancing,050,228,792
+26,volleyball_set,101,gif_027.gif,volleyball set,101,18,105,8,17,volleyball set,dog highfive,weightlifting stand,blowing balloon,dips,214,665,085
+27,smoking_inhale,83,gif_028.gif,smoking inhale,83,105,84,14,57,smoking inhale,weightlifting stand,softball pitch,closing door,play saxophone,819,241,272
+28,squash_backhand,86,gif_029.gif,squash backhand,86,72,101,79,62,squash backhand,rock balancing,volleyball set,shoveling snow,play triangle,182,651,146
+29,playing_cajon_drum,65,gif_030.gif,playing cajon drum,65,90,42,59,38,playing cajon drum,taekwondo high block,play erhu,play sheng,play  piccolo,941,957,674
+30,cutting_onion,16,gif_031.gif,cutting onion,16,80,102,2,89,cutting onion,shuffle dance,watering plants,arm wave,swinging axe on a tree,287,183,221
+31,play_sheng,59,gif_032.gif,play sheng,59,116,115,80,98,play sheng,yoga locust,yoga gate,shuffle dance,using scythe,442,670,926
+32,rock_balancing,72,gif_033.gif,rock balancing,72,80,116,79,69,rock balancing,shuffle dance,yoga locust,shoveling snow,pull ups,019,981,363
+33,weightlifting_stand,105,gif_034.gif,weightlifting stand,105,39,57,25,104,weightlifting stand,play cornett,play saxophone,gym plank,weightlifting overhead,020,934,642
+34,handsaw,31,gif_035.gif,handsaw,31,97,88,108,67,handsaw,using lawn mower,styling hair,whistle two hands,pottery wheel,176,597,987
+35,play_ukulele,63,gif_036.gif,play ukulele,63,101,18,59,26,play ukulele,volleyball set,dog highfive,play sheng,gym squat,601,399,172
+36,softball_pitch,84,gif_037.gif,softball pitch,84,20,53,63,105,softball pitch,eat apple,play ocarina,play ukulele,weightlifting stand,782,560,619
+37,yoga_locust,116,gif_038.gif,yoga locust,116,106,26,83,20,yoga locust,whipping,gym squat,smoking inhale,eat apple,961,511,962
+38,hand-drill_firemaking_drill_with_bow,29,gif_039.gif,firemaking drill with bow,29,80,20,86,97,firemaking drill with bow,shuffle dance,eat apple,squash backhand,using lawn mower,511,207,608
+39,jump rope,35,gif_040.gif,jump rope,35,19,104,34,10,jump rope,draw handgun,weightlifting overhead,jack up car,chainsaw tree,738,407,728
+40,styling_hair,88,gif_041.gif,styling hair,88,10,23,116,106,styling hair,chainsaw tree,floss dance,yoga locust,whipping,048,428,233
+41,play_serpent,58,gif_042.gif,play serpent,58,63,90,80,102,play serpent,play ukulele,taekwondo high block,shuffle dance,watering plants,753,449,903
+42,play_tambourine,60,gif_043.gif,play tambourine,60,44,38,102,118,play tambourine,play grandpiano,play  piccolo,watering plants,yoga pigeon,730,669,804
+43,shuffle_dance,80,gif_044.gif,shuffle dance,80,10,16,105,21,shuffle dance,chainsaw tree,cutting onion,weightlifting stand,fish-hunting hold,350,053,055
+44,blowing_balloon,8,gif_045.gif,blowing balloon,8,10,37,86,59,blowing balloon,chainsaw tree,neck side pull stretch,squash backhand,play sheng,425,512,004
+45,bench_dip,6,gif_046.gif,bench dip,6,101,8,20,59,bench dip,volleyball set,blowing balloon,eat apple,play sheng,124,378,626
+46,wear_face_mask,103,gif_047.gif,wear face mask,103,29,46,40,39,wear face mask,firemaking drill with bow,play hulusi,play cymbals,play cornett,822,514,500
+47,swinging_axe_on_a_tree,89,gif_048.gif,swinging axe on a tree,89,108,43,65,38,swinging axe on a tree,whistle two hands,play gong,playing cajon drum,play  piccolo,552,769,139
+48,taekwondo_high_block,90,gif_049.gif,taekwondo high block,90,73,84,106,115,taekwondo high block,running in place,softball pitch,whipping,yoga gate,357,304,099
+49,weightlifting_overhead,104,gif_050.gif,weightlifting overhead,104,72,60,19,100,weightlifting overhead,rock balancing,play tambourine,draw handgun,using typewriter,742,470,001
+50,basketball_jabstep,5,gif_051.gif,basketball jabstep,5,29,72,34,86,basketball jabstep,firemaking drill with bow,rock balancing,jack up car,squash backhand,589,540,347
+51,jack_up_car,34,gif_052.gif,jack up car,34,106,6,42,101,jack up car,whipping,bench dip,play erhu,volleyball set,861,718,708
+52,neck_side_pull_stretch,37,gif_053.gif,neck side pull stretch,37,21,89,54,86,neck side pull stretch,fish-hunting hold,swinging axe on a tree,play panpipe,squash backhand,270,294,295
+53,handshake_dog,32,gif_054.gif,handshake dog,32,29,75,42,31,handshake dog,firemaking drill with bow,shake cocktail,play erhu,handsaw,205,513,532
+54,yoga_pigeon,118,gif_055.gif,yoga pigeon,118,69,100,23,74,yoga pigeon,pull ups,using typewriter,floss dance,screw car tire,251,987,869
+55,play_leaf-flute,48,gif_056.gif,play leaf-flute,48,51,73,21,24,play leaf-flute,play melodic,running in place,fish-hunting hold,golf part,203,903,554
+56,play_cornett,39,gif_057.gif,play cornett,39,54,48,0,38,play cornett,play panpipe,play leaf-flute,add new car tire,play  piccolo,055,822,480
+57,play_grandpiano,44,gif_058.gif,play grandpiano,44,75,53,39,37,play grandpiano,shake cocktail,play ocarina,play cornett,neck side pull stretch,361,564,332
+58,gym_plank,25,gif_059.gif,gym plank,25,63,108,48,57,gym plank,play ukulele,whistle two hands,play leaf-flute,play saxophone,097,722,213
+59,shoveling_snow,79,gif_060.gif,shoveling snow,79,100,14,29,89,shoveling snow,using typewriter,closing door,firemaking drill with bow,swinging axe on a tree,775,105,327
+60,eat_apple,20,gif_061.gif,eat apple,20,68,120,62,105,eat apple,pouring wine,yoga updog,play triangle,weightlifting stand,379,555,872
+61,play_triangle,62,gif_062.gif,play triangle,62,4,32,120,42,play triangle,balloon animal,handshake dog,yoga updog,play erhu,154,515,545
+62,play_recorder,55,gif_063.gif,play recorder,55,14,113,57,31,play recorder,closing door,yoga firefly,play saxophone,handsaw,895,430,451
+63,whistle_two_hands,108,gif_064.gif,whistle two hands,108,48,40,18,16,whistle two hands,play leaf-flute,play cymbals,dog highfive,cutting onion,691,858,668
+64,running_in_place,73,gif_065.gif,running in place,73,97,56,81,14,running in place,using lawn mower,play sanxian,skateboard forward,closing door,405,684,836
+65,play_hulusi,46,gif_066.gif,play hulusi,46,48,104,53,8,play hulusi,play leaf-flute,weightlifting overhead,play ocarina,blowing balloon,079,350,424
+66,play_melodic,51,gif_067.gif,play melodic,51,115,25,79,53,play melodic,yoga gate,gym plank,shoveling snow,play ocarina,979,417,113
+67,gym_squat,26,gif_068.gif,gym squat,26,44,54,22,86,gym squat,play grandpiano,play panpipe,fish-hunting pull,squash backhand,526,565,857
+68,play_erhu,42,gif_069.gif,play erhu,42,6,101,32,113,play erhu,bench dip,volleyball set,handshake dog,yoga firefly,072,423,460
+69,play_ piccolo,38,gif_070.gif,play  piccolo,38,84,80,78,17,play  piccolo,softball pitch,shuffle dance,shooting shotgun,dips,660,222,685
+70,dips,17,gif_071.gif,dips,17,25,18,51,38,dips,gym plank,dog highfive,play melodic,play  piccolo,537,731,642
+71,whipping,106,gif_072.gif,whipping,106,100,34,81,113,whipping,using typewriter,jack up car,skateboard forward,yoga firefly,553,016,612
+72,fish-hunting_pull,22,gif_073.gif,fish-hunting pull,22,46,5,25,4,fish-hunting pull,play hulusi,basketball jabstep,gym plank,balloon animal,840,044,445
+73,play_saxophone,57,gif_074.gif,play saxophone,57,75,2,119,73,play saxophone,shake cocktail,arm wave,yoga triangle,running in place,768,798,099
+74,shooting_shotgun,78,gif_075.gif,shooting shotgun,78,105,62,54,20,shooting shotgun,weightlifting stand,play triangle,play panpipe,eat apple,976,377,998
+75,play_ocarina,53,gif_076.gif,play ocarina,53,44,74,50,108,play ocarina,play grandpiano,screw car tire,play maracas,whistle two hands,224,493,448
+76,yoga_triangle,119,gif_077.gif,yoga triangle,119,55,60,89,22,yoga triangle,play recorder,play tambourine,swinging axe on a tree,fish-hunting pull,884,372,516
+77,fish-hunting_hold,21,gif_078.gif,fish-hunting hold,21,86,20,62,57,fish-hunting hold,squash backhand,eat apple,play triangle,play saxophone,879,492,151
+78,pouring_wine,68,gif_079.gif,pouring wine,68,34,73,24,118,pouring wine,jack up car,running in place,golf part,yoga pigeon,429,768,171
+79,play_cymbals,40,gif_080.gif,play cymbals,40,25,58,103,43,play cymbals,gym plank,play serpent,wear face mask,play gong,847,792,224
