@@ -1,0 +1,8 @@
+Loading pytorch/1.7.0gpu.cuda10.2
+  Loading requirement: cuda10.2/toolkit/10.2.89
+Input Notebook:  03-extract-flows.ipynb
+Output Notebook: 03-extract-flows-papermill-1.ipynb
+Executing:   0%|          | 0/29 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   3%|▎         | 1/29 [00:07<03:42,  7.93s/cell]Executing:  10%|█         | 3/29 [00:20<02:53,  6.69s/cell]Executing:  14%|█▍        | 4/29 [00:22<02:03,  4.93s/cell]Executing:  28%|██▊       | 8/29 [00:22<00:36,  1.76s/cell]Executing:  34%|███▍      | 10/29 [00:26<00:35,  1.86s/cell]Executing:  41%|████▏     | 12/29 [00:27<00:22,  1.32s/cell]Executing:  45%|████▍     | 13/29 [00:27<00:17,  1.11s/cell]Executing:  72%|███████▏  | 21/29 [00:28<00:03,  2.12cell/s]Autosave too slow: 1.26 sec, over 25% limit. Backing off to 10 sec
+Autosave too slow: 2.54 sec, over 25% limit. Backing off to 20 sec
+Executing:  79%|███████▉  | 23/29 [5:33:51<3:14:49, 1948.33s/cell]Executing:  83%|████████▎ | 24/29 [5:33:55<2:22:34, 1710.97s/cell]Executing:  86%|████████▌ | 25/29 [5:34:00<1:37:09, 1457.49s/cell]Executing:  90%|████████▉ | 26/29 [5:34:05<1:00:09, 1203.19s/cell]Executing:  93%|█████████▎| 27/29 [5:34:10<32:06, 963.41s/cell]   Executing:  97%|█████████▋| 28/29 [5:34:14<12:30, 750.33s/cell]Executing: 100%|██████████| 29/29 [5:34:19<00:00, 570.64s/cell]Executing: 100%|██████████| 29/29 [5:34:20<00:00, 691.74s/cell]

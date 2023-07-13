@@ -40,10 +40,11 @@ criterion = feafa_criterion.SimpleLoss(flownet)
 optimizer = optim.SGD(flownet.parameters(), lr=0.1, momentum=0.9)
 
 #save_root = "/data/anzellos/results/twostream_feafa"
-save_root = "/data/aglinska/BC-actionpred-seg/Data/02-results_twostream_feafa"
+save_root = "/data/aglinska/BC-actionpred-seg/Data/02-results_twostream_feafa_2"
 
 save_freq = 1                               # specify every how many epochs to save the model
 loss_memory = []
+loss_collect = []
 for epoch in range(5):  # loop over the dataset multiple times
     print('Starting epoch ',epoch,' ...\n')
     running_loss = 0.0
@@ -63,6 +64,7 @@ for epoch in range(5):  # loop over the dataset multiple times
         optimizer.zero_grad()
         # forward + backward + optimize
         loss = criterion(t0s,reconstructed,flows_reshaped,flownet)
+        loss_collect.append( loss.data.item() )
         for t0 in t0s:
             t0.detach().cpu()
         for reco in reconstructed:
@@ -87,7 +89,8 @@ for epoch in range(5):  # loop over the dataset multiple times
             'epoch': epoch,
             'model_state_dict': flownet.state_dict(),
             'optimizer_state_dict': optimizer.state_dict(),
-            'loss': epoch_loss
+            'loss': epoch_loss,
+            'loss_collect' : loss_collect
             }, save_path)
 
 

@@ -1,20 +1,20 @@
 /data/aglinska/BC-actionpred-seg/twostream_feafa
 g003
-Wed May 24 11:14:18 EDT 2023
+Fri Jul  7 06:53:59 EDT 2023
 Starting epoch  0  ...
 
-[1] loss: 0.025
+[1] loss: 0.128
 Starting epoch  1  ...
 
-[2] loss: 0.015
+[2] loss: 0.096
 Starting epoch  2  ...
 
-[3] loss: 0.014
+[3] loss: 0.092
 Starting epoch  3  ...
 
-[4] loss: 0.014
+[4] loss: 0.092
 Starting epoch  4  ...
 
-[5] loss: 0.013
+[5] loss: 0.091
 all done
-Wed May 24 19:17:03 EDT 2023
+Fri Jul  7 12:02:14 EDT 2023

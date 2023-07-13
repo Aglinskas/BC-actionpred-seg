@@ -37,58 +37,17 @@ def findvideofolders(path):
     return folders
 
 
-# def windowmapper(videopaths,window,return_labels=False):
-#     allwindows_frames = []
-#     allwindows_labels = []
-#     for path in videopaths:
-#         os.chdir(path)
-#         path_frames = []
-#         path_labels = []
-
-#         for frame_filename in sorted(glob.glob("*.jpg")):
-#             framepath = os.path.join(path,frame_filename)
-#             path_frames.append(framepath)
-#             #labelpath = framepath[:-4]+".auw"
-# #             if os.path.isfile(labelpath):
-# #                 f = open(labelpath, "r")
-# #                 x = f.read()
-# #                 y = torch.from_numpy(np.asarray([float(i) for i in x.split()]))
-# #                 #path_labels.append(y)
-# #             else:
-# #                 #path_labels.append("missing")
-
-#         for iwindow in range(len(path_frames)-window+1):
-# #             missing = 0
-#             #windowlabels = path_labels[iwindow:iwindow+window]
-# #             for label in windowlabels:
-# #                 if type(label) == str:
-# #                     missing+=1
-# #             if not missing:
-#             framepaths = path_frames[iwindow:iwindow+window]
-#             allwindows_frames.append(framepaths)
-#             #allwindows_labels.append(torch.cat(windowlabels,dim=0))
-    
-#     if return_labels==True:
-#         return allwindows_frames , allwindows_labels
-#     else:
-#         return allwindows_frames #, allwindows_labels
-
-
 def windowmapper(videopaths,window,return_labels=False):
     allwindows_frames = []
-    allwindows_labels = []
+    #allwindows_labels = []
     for path in videopaths:
         os.chdir(path)
         path_frames = []
-        path_labels = []
+        #path_labels = []
 
         for frame_filename in sorted(glob.glob("*.jpg")):
             framepath = os.path.join(path,frame_filename)
-            
             path_frames.append(framepath)
-            #this_label = framepath.split('/')[-1]
-            this_label = (framepath.split('/')[-2],framepath.split('/')[-1])
-            path_labels.append(this_label)
             #labelpath = framepath[:-4]+".auw"
 #             if os.path.isfile(labelpath):
 #                 f = open(labelpath, "r")
@@ -97,7 +56,7 @@ def windowmapper(videopaths,window,return_labels=False):
 #                 #path_labels.append(y)
 #             else:
 #                 #path_labels.append("missing")
-        
+
         for iwindow in range(len(path_frames)-window+1):
 #             missing = 0
             #windowlabels = path_labels[iwindow:iwindow+window]
@@ -107,23 +66,19 @@ def windowmapper(videopaths,window,return_labels=False):
 #             if not missing:
             framepaths = path_frames[iwindow:iwindow+window]
             allwindows_frames.append(framepaths)
-            allwindows_labels.append( path_labels[iwindow:iwindow+window] )
-            #allwindows_labels.append()
             #allwindows_labels.append(torch.cat(windowlabels,dim=0))
-    #print(len(path_labels))
-    #print(path_labels)
+    
     if return_labels==True:
         return allwindows_frames , allwindows_labels
     else:
         return allwindows_frames #, allwindows_labels
-    
+
 
 class FeafaDataset(Dataset):
     def __init__(self, path, window,usage,train=0.8,return_labels=False):
         self.path = path
         self.window = window
-        #self.transform = transforms.Compose([transforms.CenterCrop(720),transforms.Resize((224,224)),transforms.ToTensor()])
-        self.transform = transforms.Compose([transforms.Resize((224,224)),transforms.ToTensor()])
+        self.transform = transforms.Compose([transforms.CenterCrop(720),transforms.Resize((224,224)),transforms.ToTensor()])
         # find all the frames
         videopaths = findvideofolders(self.path)
         # select train or test
